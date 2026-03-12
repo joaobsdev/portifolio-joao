@@ -126,7 +126,7 @@ export function Hero() {
             <div className="absolute -inset-4 rounded-full bg-gradient-to-br from-primary/30 to-accent/20 blur-2xl -z-10" />
             <div className="absolute -inset-1 rounded-full bg-gradient-to-br from-primary to-accent opacity-20 -z-10" />
             <img
-              src="/img/JOTA_SOCIAL3.JPG"
+              src="/img/Jota_social.jpg"
               alt="Foto de perfil de João Pedro Bispo"
               className="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-primary/40 shadow-2xl shadow-primary/20"
             />
