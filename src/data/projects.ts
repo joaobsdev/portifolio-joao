@@ -15,7 +15,7 @@ export const projects: Project[] = [
     title: 'Gerador de Senhas',
     description:
       'Aplicação web para geração de senhas seguras com opções personalizáveis. Desenvolvida com React e Vite.',
-    image: '/img/password-generator.png',
+    image: '/img/Password-Generator.png',
     tags: ['React', 'JavaScript', 'Vite'],
     category: 'Aplicação Web',
     demoUrl: 'https://gerador-de-senhas-kohl-chi.vercel.app',
@@ -37,7 +37,7 @@ export const projects: Project[] = [
     title: 'Calculadora React',
     description:
       'Calculadora funcional em React.js com gerenciamento de estados (useState), ciclo de vida (useEffect) e suporte a eventos de teclado.',
-    image: '/img/calculadora.png',
+    image: '/img/Calculadora.png',
     tags: ['React', 'JavaScript', 'Vite'],
     category: 'Aplicação Web',
     demoUrl: 'https://calculadora-react-mu-ashen.vercel.app',
