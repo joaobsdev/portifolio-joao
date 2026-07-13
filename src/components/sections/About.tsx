@@ -33,10 +33,11 @@ export function About() {
             className="space-y-6"
           >
             <motion.p variants={itemVariants} className="text-muted text-lg leading-relaxed">
-              Sou desenvolvedor Front-End Júnior com foco em React, TypeScript e CSS.
-              Minha experiência como UX/UI Designer me ajuda a unir design, código e experiência do usuário de forma natural.
-              Estou cursando Análise e Desenvolvimento de Sistemas e sou movido por desafios e aprendizado contínuo.
-              Busco evoluir minhas habilidades para fazer a diferença na tecnologia, assim como os gênios que sempre admirei: Steve Jobs e Bill Gates.
+              Sou UX/UI Designer com uma visão 360° do desenvolvimento de produtos digitais. Minha trajetória une a sensibilidade do Design Gráfico, a técnica do Desenvolvimento Front-End e o olhar estratégico da Gestão de Projetos — tudo isso para criar experiências que não apenas encantam, mas funcionam na prática, do planejamento à entrega.
+
+              Minha especialidade é construir pontes entre design, tecnologia e negócio, transformando conceitos em interfaces responsivas, acessíveis e centradas no usuário. Tenho um perfil adaptável e sou movido por desafios que exigem criatividade, raciocínio lógico e visão de planejamento para entregar soluções inovadoras, viáveis e no prazo.
+
+              Estou em constante evolução, acompanhando as demandas do mercado para garantir que cada projeto não apenas atenda, mas supere as expectativas em usabilidade, performance, impacto visual e resultados.
             </motion.p>
           </motion.div>
 

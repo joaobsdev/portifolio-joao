@@ -1,4 +1,11 @@
-import { SiJavascript, SiReact, SiTypescript, SiCss } from 'react-icons/si'
+import {
+  SiFigma,
+  SiHtml5,
+  SiJavascript,
+  SiReact,
+  SiCss,
+} from 'react-icons/si'
+import { FiImage } from 'react-icons/fi'
 import type { IconType } from 'react-icons'
 
 export interface Skill {
@@ -11,7 +18,42 @@ export interface Skill {
 
 export const skills: Skill[] = [
   {
-    id: 'js',
+    id: 'figma',
+    name: 'Figma',
+    description: 'Prototipagem e Design Systems',
+    Icon: SiFigma,
+    color: '#f24e1e',
+  },
+  {
+    id: 'adobe',
+    name: 'Adobe Suite',
+    description: 'Photoshop & Illustrator',
+    Icon: FiImage,
+    color: '#ff0000',
+  },
+  {
+    id: 'wireframing',
+    name: 'Wireframing',
+    description: 'Estrutura e fluxos de navegação',
+    Icon: SiFigma, // ou use um ícone de wireframe se tiver
+    color: '#6c63ff',
+  },
+  {
+    id: 'responsivo',
+    name: 'Design Responsivo',
+    description: 'Mobile First e Adaptabilidade',
+    Icon: SiCss, // ou um ícone de responsividade
+    color: '#264de4',
+  },
+  {
+    id: 'htmlcss',
+    name: 'HTML/CSS',
+    description: 'Estilização e componentes',
+    Icon: SiHtml5,
+    color: '#e34f26',
+  },
+  {
+    id: 'javascript',
     name: 'JavaScript',
     description: 'Lógica de Programação',
     Icon: SiJavascript,
@@ -24,18 +66,4 @@ export const skills: Skill[] = [
     Icon: SiReact,
     color: '#61dafb',
   },
-  {
-    id: 'ts',
-    name: 'TypeScript',
-    description: 'Tipagem Segura',
-    Icon: SiTypescript,
-    color: '#3178c6',
-  },
-  {
-    id: 'css',
-    name: 'CSS',
-    description: 'Estilização',
-    Icon: SiCss,
-    color: '#264de4',
-  },
-]
+];
