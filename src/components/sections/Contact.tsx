@@ -53,7 +53,7 @@ export function Contact() {
               <h3 className="text-text font-bold text-2xl mb-3">Vamos conversar</h3>
               <p className="text-muted leading-relaxed">
                 Tem um projeto em mente, uma oportunidade ou só quer trocar uma ideia? Me manda uma
-                mensagem — responderei pelo WhatsApp!
+                mensagem, Responderei pelo WhatsApp!
               </p>
             </div>
 

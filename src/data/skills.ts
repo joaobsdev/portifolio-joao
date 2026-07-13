@@ -35,19 +35,19 @@ export const skills: Skill[] = [
     id: 'wireframing',
     name: 'Wireframing',
     description: 'Estrutura e fluxos de navegação',
-    Icon: SiFigma, // ou use um ícone de wireframe se tiver
+    Icon: SiFigma,
     color: '#6c63ff',
   },
   {
     id: 'responsivo',
     name: 'Design Responsivo',
     description: 'Mobile First e Adaptabilidade',
-    Icon: SiCss, // ou um ícone de responsividade
+    Icon: SiCss,
     color: '#264de4',
   },
   {
     id: 'htmlcss',
-    name: 'HTML/CSS',
+    name: 'HTML',
     description: 'Estilização e componentes',
     Icon: SiHtml5,
     color: '#e34f26',
