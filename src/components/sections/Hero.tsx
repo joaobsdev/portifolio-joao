@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import { FiArrowDown, FiMail } from 'react-icons/fi'
 
-const ROLES = ['Desenvolvedor Front-End', 'React Developer']
+const ROLES = ['UX/UI Designer', 'Desenvolvedor Front-End']
 
 const containerVariants = {
   hidden: {},
@@ -67,7 +67,7 @@ export function Hero() {
             variants={itemVariants}
             className="inline-block text-primary font-mono text-sm mb-4 border border-primary/30 rounded-full px-4 py-1 bg-primary/5"
           >
-            👋 Olá, eu sou
+            Olá, eu sou
           </motion.span>
 
           <motion.h1
@@ -89,7 +89,7 @@ export function Hero() {
           >
             Apaixonado por transformar ideias em experiências digitais{' '}
             <span className="text-text font-medium">intuitivas</span> e{' '}
-            <span className="text-text font-medium">marcantes</span>. Cada linha de código é uma oportunidade de criar algo incrível.
+            <span className="text-text font-medium">marcantes</span>.
           </motion.p>
 
           <motion.div variants={itemVariants} className="flex flex-wrap gap-4">
